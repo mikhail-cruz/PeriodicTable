@@ -1,0 +1,153 @@
+body {
+    font-family: monospace;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 40px;
+}
+
+/* * TOP SECTION */
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+/* * BOTTOM SECTION */
+.bottom-section {
+    margin-left: 60px;
+}
+
+.bottom-section > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article > div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px;
+    padding: 2px;
+    border-radius: 10px;
+    color: #222;
+}
+
+div > span {
+    font-size: 8px;
+    margin: 0;
+    font-weight: bold;
+}
+/* *---- */
+div > p {
+    font-weight: bold;
+    font-size: 21px;
+    margin: 1px 0;
+}
+
+.center {
+    margin: auto auto;
+    font-weight: bold;
+    font-size: small;
+}
+
+article .label {
+    background: #eee;
+    border: none;
+}
+
+article .label p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: -35px;
+    font-family: sans-serif;
+}
+
+/* * Legend */
+#legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: -60px;
+    margin-top: -15px;
+}
+
+.inline {
+    display: flex;
+}
+
+#legend .box {
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+}
+
+#legend article div {
+    border: none;
+    width: auto;
+    height: 15px;
+    gap: 2px;
+}
+
+#legend article div p {
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+article #flex-legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.alkali-metals {
+    background: rgb(243, 32, 32);
+}
+
+.alkaline-earth-metals {
+    background: rgb(233, 151, 11);
+}
+
+.transition-metals {
+    background: rgb(110, 190, 233);
+}
+
+.lanthanides {
+    background: rgb(3, 132, 253);
+}
+
+.actinides {
+    background: rgb(3, 249, 159);
+}
+
+.post-transition-metals {
+    background: rgb(186, 99, 218);
+}
+
+.metalloids {
+    background: rgb(245, 197, 8);
+}
+
+.reactive-non-metals {
+    background: rgb(130, 228, 51);
+}
+
+.nobel-gas {
+    background: rgb(241, 146, 181);
+}
+
+.unknown-chemical-properties {
+    background: rgb(180, 180, 183);
+}
